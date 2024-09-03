@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            height: 500px;
+            width: 450px;
+            text-align: center;
+            /* background-color: black; */
+            /* border-radius: 50px; */
+            /* border: 2px solid black; */
+        }
+
+        .upper {
+            height: 30%;
+            background-color: rgb(96, 177, 231);
+            border-radius: 50px 50px 0px 0px;
+        }
+
+        .lower {
+            height: 70%;
+            /* background-color: red; */
+            border-radius: 0px 0px 50px 50px;
+            border: 2px solid black;
+            padding-top: 80px;
+
+        }
+        .lower .icons,button,h1,h3
+        {
+            margin: 15px 10px 0px 0px;
+        }
+        .icons i
+        {
+            margin: 0px 5px;
+        }
+        button
+        {
+            padding: 20px;
+            border: none;
+            border-radius: 30px;
+            background-color: rgb(96, 177, 231);
+            color: white;
+        }
+        .mid
+        {
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        img 
+        {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            padding: 3px;
+            background-color: rgb(96, 177, 231);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper"></div>
+        <div class="mid">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvEbKIGsZCbu1m-rgbPgukFUgHg2SiDfuLw&s" alt="">
+        </div>
+        <div class="lower">
+            <h1>Frontend-developer</h1>
+            <h3>Tech job Senior</h3>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <button>Message</button>
+        </div>
+    </div>
+</body>
+
+</html>
